@@ -45,29 +45,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Features
 
-```bash
-# unit tests
-$ npm run test
+- Users, Topics, Questions, Roles and Auth resources.
+- Database generation using TypeORM.
+- JWT based access control and authentication.
+- Role Based rotes access.
+- Real time communication with frontend using sockets on the Topics resource.
+- DTO request validation using class-validator
 
-# e2e tests
-$ npm run test:e2e
+## Final thoughts
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+I'm a bit sad that i didn't had the proper time to finish the project and the challenge but i had fun implementing and messing around with Sockets. I also had the chance during development to again create and configure a NestJS project so in the end it was good for mastering the first steps of a project.
