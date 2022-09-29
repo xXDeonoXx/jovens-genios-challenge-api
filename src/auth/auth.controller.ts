@@ -7,9 +7,6 @@ import {
   UseGuards,
   UseInterceptors,
 } from '@nestjs/common';
-import { Role } from 'src/enums/role.enum';
-import { Roles } from 'src/roles/roles.decorator';
-import { User } from 'src/users/entities/user.entity';
 import { Public } from 'src/utils/Public';
 import { AuthService } from './auth.service';
 import { LocalAuthGuard } from './local-auth.guard';

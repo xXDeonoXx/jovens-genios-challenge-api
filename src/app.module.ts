@@ -9,6 +9,8 @@ import { JwtAuthGuard } from './auth/jwt-auth.guard';
 import { RolesGuard } from './roles/roles.guard';
 import { RolesModule } from './roles/roles.module';
 import { UsersModule } from './users/users.module';
+import { TopicsModule } from './topics/topics.module';
+import { QuestionsModule } from './topics/questions/questions.module';
 
 @Module({
   imports: [
@@ -17,6 +19,8 @@ import { UsersModule } from './users/users.module';
     RolesModule,
     AuthModule,
     ConfigModule.forRoot({ isGlobal: true }),
+    TopicsModule,
+    QuestionsModule,
   ],
   controllers: [AppController],
   providers: [

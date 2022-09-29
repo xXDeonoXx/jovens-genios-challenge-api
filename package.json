@@ -35,7 +35,9 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^7.1.5",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/platform-socket.io": "^9.1.2",
     "@nestjs/typeorm": "^7.1.5",
+    "@nestjs/websockets": "^9.1.2",
     "@types/bcrypt": "^3.0.0",
     "bcrypt": "^5.0.1",
     "class-transformer": "0.4.0",
@@ -48,6 +50,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
+    "socket.io": "^4.5.2",
     "ts-node-dev": "^1.1.6",
     "typeorm": "^0.2.32",
     "uuid": "^8.3.2"
